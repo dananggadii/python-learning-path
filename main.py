@@ -60,3 +60,18 @@ playlist = [1, 'Blinding Lights', 'The Weeknd', 2, 'One Dance', 'Drake', 3, 'Upt
 # Print all songs in the playlist
 for song in playlist:
     print(playlist[1::3])
+
+# =================================================================================================
+
+# Create the playlist dictionary
+playlist = {
+    "The Weeknd": "Blinding Lights",
+    "Drake": "One Dance",
+    "Mark Ronson": "Uptown Funk",
+    "The Chainsmokers": "Closer",
+    "Calvin Harris": "One Kiss",
+    "The Killers": "Mr. Brightside"
+}
+
+# Print the playlist
+print(playlist)
