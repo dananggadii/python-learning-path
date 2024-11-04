@@ -70,8 +70,18 @@ playlist = {
     "Mark Ronson": "Uptown Funk",
     "The Chainsmokers": "Closer",
     "Calvin Harris": "One Kiss",
-    "The Killers": "Mr. Brightside"
+    "The Killers": "Mr. Brightside",
+    "Coldplay": "Viva La Vida"
 }
 
 # Print the playlist
 print(playlist)
+
+# Print the song by Coldplay
+print(playlist['Coldplay'])
+
+# Add a new song
+playlist['Usher'] = 'Yeah!'
+
+# Print the songs in the playlist
+print(playlist.values())
