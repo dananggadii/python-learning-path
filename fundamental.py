@@ -106,3 +106,18 @@ hip_hop_set = set(hip_hop)
 
 # Print the indie and hip_hop sets
 print(indie_set, hip_hop_set)
+
+# =================================================================================================
+
+# Check if September inflation is less than August inflation
+if inflation_september < inflation_august:
+    print("Inflation decreased")
+
+# Check if September inflation is more than August inflation
+elif inflation_september > inflation_august:
+    print("Inflation increased")
+
+# Confirm that they are equal
+else:
+    print("Inflation remained stable")
+
