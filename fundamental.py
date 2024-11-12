@@ -109,15 +109,22 @@ print(indie_set, hip_hop_set)
 
 # =================================================================================================
 
-# Check if September inflation is less than August inflation
-if inflation_september < inflation_august:
-    print("Inflation decreased")
+# Check the number of beds
+if num_beds < min_num_beds:
+    print("Insufficient bedrooms")
 
-# Check if September inflation is more than August inflation
-elif inflation_september > inflation_august:
-    print("Inflation increased")
+# Check square feet
+elif sq_foot <= min_sq_foot:
+    print("Too small")
 
-# Confirm that they are equal
+# Check the rent
+elif rent > max_rent:
+    print("Too expensive")
+
+# If all conditions met
 else:
-    print("Inflation remained stable")
+    print("This looks promising!")
+
+
+# =================================================================================================
 
