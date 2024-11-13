@@ -37,10 +37,15 @@ sales = {
 
 sales_df = pd.DataFrame(sales) # read dataframe 
 sales_df.head() # preview file 
-sales_df
-
-sales_csv = pd.read_csv(sales.csv) # read csv file
-type(sales_csv) # data type check 
+sales_df # print dataframe
 
 # =================================================================================================
 
+# Read in sales.csv
+sales_df = pd.read_csv("sales.csv")
+
+# Print the mean order_value
+print(sales_df["order_value"].mean())
+
+# Print the total value of sales
+print(sales_df["order_value"].sum())
