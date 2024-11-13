@@ -58,4 +58,19 @@ def average(values):
 
 sales = [23, 235, 56, 45, 78]
 
-average(sales)
+average_sales = average(sales)
+
+print(average_sales)
+
+# =================================================================================================
+
+def find_max(a_list):
+  sorted_list = sorted(a_list)
+  max_values = sorted_list[-1]
+  return max_values
+
+list_value = [20, 4, 11, 9, 10]
+
+max_values = find_max(list_value)
+
+print(max_values)
