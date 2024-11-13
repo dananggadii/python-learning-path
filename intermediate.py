@@ -7,8 +7,7 @@ course_ratings = {"LLM Concepts": 4.7,
 num_courses = len(course_ratings)
 print(num_courses)
 
-course_completions = [97, 83, 121, 205, 56, 174, 92, 117, 164]
-
 # =================================================================================================
 
-
+# Print the average number of completions, rounded to one decimal places
+print(round(sum(course_completions) / len(course_completions), 1))
