@@ -9,10 +9,6 @@ print(num_courses)
 
 course_completions = [97, 83, 121, 205, 56, 174, 92, 117, 164]
 
-# Find the number of courses
-num_courses = len(course_completions)
-print(num_courses)
-
 # =================================================================================================
 
 
