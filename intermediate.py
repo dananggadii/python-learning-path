@@ -49,3 +49,13 @@ print(sales_df["order_value"].mean())
 
 # Print the total value of sales
 print(sales_df["order_value"].sum())
+
+# =================================================================================================
+
+def average(values):
+  average_value = sum(values) / len(values)
+  return round(average_value, 2)
+
+sales = [23, 235, 56, 45, 78]
+
+average(sales)
