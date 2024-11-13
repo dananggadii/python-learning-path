@@ -35,10 +35,11 @@ sales = {
   "order_value" : [197.75, 208.21, 134.99]
 }
 
-sales_df = pd.DataFrame(sales)
-print(sales_df)
+sales_df = pd.DataFrame(sales) # read dataframe 
+sales_df.head() # preview file 
+sales_df
 
-sales_csv = pd.read_csv(sales.csv)
+sales_csv = pd.read_csv(sales.csv) # read csv file
 type(sales_csv) # data type check 
 
 # =================================================================================================
