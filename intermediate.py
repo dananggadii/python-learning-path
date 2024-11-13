@@ -36,3 +36,10 @@ sales = {
 }
 
 sales_df = pd.DataFrame(sales)
+print(sales_df)
+
+sales_csv = pd.read_csv(sales.csv)
+type(sales_csv) # data type check 
+
+# =================================================================================================
+
