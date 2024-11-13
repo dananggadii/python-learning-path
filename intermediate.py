@@ -10,4 +10,21 @@ print(num_courses)
 # =================================================================================================
 
 # Print the average number of completions, rounded to one decimal places
-print(round(sum(course_completions) / len(course_completions), 1))
+print(round(sum(course_ratings) / len(course_ratings), 1))
+
+# =================================================================================================
+
+# Import date from the datetime module
+from datetime import date
+
+# Create a variable called deadline
+deadline = date(2024, 1, 19)
+
+# Check the data type
+print(type(deadline))
+
+# Print the deadline
+print(deadline)
+
+# =================================================================================================
+
