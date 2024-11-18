@@ -55,11 +55,21 @@ print(playlist)
 
 # =================================================================================================
 
-playlist = [1, 'Blinding Lights', 'The Weeknd', 2, 'One Dance', 'Drake', 3, 'Uptown Funk', 'Mark Ronson', 4, 'Closer', 'The Chainsmokers', 5, 'One Kiss', 'Calvin Harris', 6, 'Mr. Brightside', 'The Killers']
+playlist = [1, 'Blinding Lights', 'The Weeknd', 
+            2, 'One Dance', 'Drake', 
+            3, 'Uptown Funk', 'Mark Ronson', 
+            4, 'Closer', 'The Chainsmokers', 
+            5, 'One Kiss', 'Calvin Harris', 
+            6, 'Mr. Brightside', 'The Killers']
 
 # Print all songs in the playlist
 for song in playlist:
-    print(playlist[1::3])
+    print(playlist[1::3]) 
+
+# Note : Slice playlist[1::3]
+# Bagian ini mengambil elemen-elemen dari daftar playlist:
+# 1: Mulai dari indeks 1 (elemen kedua).
+# ::3: Melompat tiga langkah di setiap iterasi.
 
 # =================================================================================================
 
